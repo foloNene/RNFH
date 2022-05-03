@@ -1,3 +1,5 @@
+import 'antd/dist/antd.css';
+
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
@@ -7,6 +9,7 @@ import Product from './pages/Product';
 import Services from './pages/Services';
 import Blog from "./pages/Blog";
 import Gallary from "./pages/Gallary"
+
 
 function App() {
   return (

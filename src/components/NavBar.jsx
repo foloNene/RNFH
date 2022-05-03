@@ -3,43 +3,60 @@ import styled from "styled-components";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
   };
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? "bold" : "normal",
+      color: isActive ? "red" : "white",
+      textDecoration: isActive ? "underline" : "none",
+    };
+  };
   return (
     <Container>
       <NavContainer>
-        <Link to="/">
+        <NavLink to="/" style={navLinkStyles}>
           <LogoHold>
             <HomeLogo>
               <AiOutlineHome />
             </HomeLogo>
             <HomeText>Home</HomeText>
           </LogoHold>
-        </Link>
+        </NavLink>
         <MobileIcon onClick={handleClick}>
           {click ? <FaTimes /> : <GiHamburgerMenu />}
         </MobileIcon>
 
         <NavBarHolder onClick={handleClick} click={click}>
           <NavLinks>
-            <Link to="/contact">Contact</Link>{" "}
+            <NavLink to="/contact" style={navLinkStyles}>
+              Contact
+            </NavLink>{" "}
           </NavLinks>
           <NavLinks>
-            <Link to="/product">Product</Link>
+            <NavLink to="/product" style={navLinkStyles}>
+              Product
+            </NavLink>
           </NavLinks>
           <NavLinks>
-            <Link to="/gallary">Gallary</Link>
+            <NavLink to="/gallary" style={navLinkStyles}>
+              Gallary
+            </NavLink>
           </NavLinks>
           <NavLinks>
-            <Link to="/services">Services</Link>
+            <NavLink to="/services" style={navLinkStyles}>
+              Services
+            </NavLink>
           </NavLinks>
           <NavLinks>
-            <Link to="/blog">Blog</Link>
+            <NavLink to="/blog" style={navLinkStyles}>
+              Blog
+            </NavLink>
           </NavLinks>
         </NavBarHolder>
       </NavContainer>
@@ -50,6 +67,7 @@ const NavBar = () => {
 export default NavBar;
 
 const Container = styled.div`
+  color: white;
   display: flex;
   height: 80px;
   justify-content: center;
