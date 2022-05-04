@@ -67,6 +67,7 @@ const Conatainer = styled.div`
   overflow: hidden;
 
   @media screen and (max-width: 425px) {
+    height: 400px;
   }
 `;
 
@@ -75,6 +76,10 @@ const Wrapper = styled.div`
   height: 600px;
   position: absolute;
   overflow: hidden;
+
+  @media screen and (max-width: 425px) {
+    height: 400px;
+  }
 `;
 
 const MySlider = styled(Carousel)`
@@ -103,22 +108,41 @@ const TextHold = styled.div`
   flex-direction: column;
   width: 400px;
   color: white;
+  align-items: center;
+@media screen and (max-width: 600px) {
+  width: 200px;
+  @media screen and (max-width: 330px) {
+  width: 100px;
 `;
-
 const TextHoldHeader = styled.h2`
   font-weight: 500;
   color: white;
   font-size: 45px;
   line-height: 59px;
+@media screen and (max-width: 600px) {
+  line-height: 14px;
+   font-size: 14px;
+   @media screen and (max-width: 330px) {
+  line-height: 12px;
+   font-size: 12px;
 `;
-
 const TextHoldPara = styled.p`
   font-size: 16px;
+@media screen and (max-width: 600px) {
+   font-size: 14px;
+   @media screen and (max-width: 330px) {
+   font-size: 10px;
 `;
 
 const SliderButtonHold = styled.div`
   display: flex;
   justify-content: space-evenly;
+@media screen and (max-width: 600px) {
+  display:flex;
+  @media screen and (max-width: 330px) {
+  display:flex;
+  flex-direction:column;
+ 
 `;
 
 const Button = styled.button``;

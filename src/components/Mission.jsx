@@ -47,7 +47,8 @@ const ContainerHold = styled.div`
   display: flex;
   justify-content: center;
   @media screen and (max-width: 425px) {
-    margin-top: 90px;
+    margin-top: 0px;
+    margin-bottom: 0;
   }
 `;
 

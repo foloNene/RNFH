@@ -13,7 +13,7 @@ const NavBar = () => {
   const navLinkStyles = ({ isActive }) => {
     return {
       fontWeight: isActive ? "bold" : "normal",
-      color: isActive ? "red" : "white",
+      color: isActive ? "teal" : "white",
       textDecoration: isActive ? "underline" : "none",
     };
   };
@@ -25,7 +25,7 @@ const NavBar = () => {
             <HomeLogo>
               <AiOutlineHome />
             </HomeLogo>
-            <HomeText>Home</HomeText>
+            <HomeText>RNP..</HomeText>
           </LogoHold>
         </NavLink>
         <MobileIcon onClick={handleClick}>
