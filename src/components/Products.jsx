@@ -29,4 +29,10 @@ const Header = styled.h1`
   font-size: 50px;
   margin-bottom: 2px;
   color: teal;
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+  }
 `;

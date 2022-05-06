@@ -254,13 +254,15 @@ const MapHolder = styled.div`
   }
 `;
 const Text = styled.div`
-  font-size: 25px;
+  text-align: center;
+  font-size: 30px;
   font-weight: bold;
   width: 90%;
   margin-top: 20px;
 
   @media screen and (max-width: 425px) {
     width: 95%;
+    font-size: 25px;
   }
 `;
 const ContactHold = styled.div`

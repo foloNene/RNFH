@@ -81,6 +81,7 @@ export default Footer;
 
 const Container = styled.div`
   display: flex;
+  bottom: 0;
   @media screen and (max-width: 430px) {
     display: flex;
     flex-direction: column;
