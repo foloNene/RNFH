@@ -54,8 +54,8 @@ const NavBar = () => {
             </NavLink>
           </NavLinks>
           <NavLinks>
-            <NavLink to="/blog" style={navLinkStyles}>
-              Blog
+            <NavLink to="/login" style={navLinkStyles}>
+              Login
             </NavLink>
           </NavLinks>
         </NavBarHolder>

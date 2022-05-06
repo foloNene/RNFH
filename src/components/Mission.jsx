@@ -12,25 +12,27 @@ const Mission = () => {
         <ContainerWrap>
           <Card
             Heading="Our Mission"
-            Paragraph="To advocate for community development, 
-             basic human right and welfare. To create platform 
-                where every citizen can excel."
+            Paragraph="we Aim take the world of fashion to a new height 
+            where each and  every one can express one self in 
+            their own unique style
+            ."
             icon={Icon1}
             col="grey"
           />
           <Card
-            Heading="Our Mission"
-            Paragraph="To advocate for community development, 
-             basic human right and welfare. To create platform 
-                where every citizen can excel."
+            Heading="Our Vision"
+            Paragraph="Our mission is to create an apparel company that can 
+            offer superior design, quality and value to the consumer. We will 
+            accomplish this by being committed to offering great service and real
+             value to our business partners and consumers.."
             icon={Icon2}
             col="#25AAE2"
           />
           <Card
-            Heading="Our Mission"
-            Paragraph="To advocate for community development, 
-             basic human right and welfare. To create platform 
-                where every citizen can excel."
+            Heading="Our Product"
+            Paragraph="The goal for our brands is to build a strong emotional bond with
+             the customer. To do this we must build lifestyle environments that appeal 
+             emotionally"
             icon={Icon3}
             col="blue"
           />

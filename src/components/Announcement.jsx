@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Announcement = () => {
-  return <Container>Super Deal!!! free Shipping on orders Over $50</Container>;
+  return <Container>Super Deal!!! free Shipping on orders Above $60</Container>;
 };
 
 export default Announcement;

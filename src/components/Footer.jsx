@@ -10,16 +10,19 @@ import {
 import { BsPinterest } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <Container>
       <Left>
         <LogoHold>
-          <HomeLogo>
-            <AiOutlineHome />
-          </HomeLogo>
-          <HomeText>RNP..</HomeText>
+          <Link to="/">
+            <HomeLogo>
+              <AiOutlineHome />
+            </HomeLogo>
+            <HomeText>RNP..</HomeText>
+          </Link>
         </LogoHold>
         <Desc>
           We are the number 1 tranding fashion store in the world, we bring
@@ -27,18 +30,45 @@ const Footer = () => {
           elit. Nihil, error.
         </Desc>
         <SocialContainer>
-          <SocialIcon color="385999">
-            <AiFillFacebook />
-          </SocialIcon>
-          <SocialIcon color="E4405f">
-            <AiOutlineInstagram />
-          </SocialIcon>
-          <SocialIcon color="55ACEE">
-            <AiOutlineTwitter />
-          </SocialIcon>
-          <SocialIcon color="E60023">
-            <BsPinterest />
-          </SocialIcon>
+          <a
+            href="https://web.facebook.com/Ladex05/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon color="385999">
+              <AiFillFacebook />
+            </SocialIcon>
+          </a>
+
+          <a
+            href="https://www.instagram.com/adebanjo_olaide/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon color="E4405f">
+              <AiOutlineInstagram />
+            </SocialIcon>
+          </a>
+
+          <a
+            href="https://twitter.com/Iam_ladex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon color="55ACEE">
+              <AiOutlineTwitter />
+            </SocialIcon>
+          </a>
+
+          <a
+            href="https://www.pinterest.com/ladex05/_saved/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon color="E60023">
+              <BsPinterest />
+            </SocialIcon>
+          </a>
         </SocialContainer>
       </Left>
       <Center>

@@ -7,7 +7,7 @@ const Cart = () => {
   return (
     <>
       <Container>
-        <Title>OUR PRoduct</Title>
+        <Title>Our Products</Title>
         <Top>
           <TopButton>Continue Shopping</TopButton>
           <TopTexts>
@@ -24,14 +24,14 @@ const Cart = () => {
                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR074-x0SBw_jK2lSDXhhdckuF64eOTc-cq9g&usqp=CAU" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Product:</b> RNP Designer suit
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="black" />
+                  <ProductColor color="Black" />
                   <ProductSize>
-                    <b>Size:</b> 37.5
+                    <b>Size:</b> 15
                   </ProductSize>
                 </Details>
               </ProductDetail>
@@ -41,7 +41,7 @@ const Cart = () => {
                   <ProductAmount>2</ProductAmount>
                   <GrSubtractCircle />
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>$ 60</ProductPrice>
               </PriceDetail>
             </Product>
             {/* End of product */}
@@ -52,12 +52,12 @@ const Cart = () => {
                 <Image src="https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Product:</b> RNP T-Shirt
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 938
                   </ProductId>
-                  <ProductColor color="black" />
+                  <ProductColor color="Pink" />
                   <ProductSize>
                     <b>Size:</b> 37.5
                   </ProductSize>
@@ -80,7 +80,7 @@ const Cart = () => {
                 <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Product:</b> RNP THUNDER SHOES
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 8293
@@ -108,7 +108,7 @@ const Cart = () => {
                 <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> RNP T-SHIRT
+                    <b>Product:</b> RNP Phile-SHIRT
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 3718

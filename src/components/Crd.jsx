@@ -34,7 +34,10 @@ const Text = styled.div`
   }
 `;
 
-const Icon = styled.img``;
+const Icon = styled.img`
+  width: 50px;
+  height: 50px;
+`;
 
 const Discription = styled.div`
   width: 64%;
